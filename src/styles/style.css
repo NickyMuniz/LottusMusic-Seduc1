@@ -1,0 +1,23 @@
+@import url(./global.css);
+
+header{
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px
+
+
+}
+
+li a{
+    color: var(--color-light);
+    text-decoration: none;
+}
